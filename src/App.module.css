@@ -1,13 +1,11 @@
 .App {
   text-align: center;
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 4rem;
-  color: white;
+  padding: 0 2rem;
 }
 
 .main {
@@ -24,7 +22,29 @@
   color: #b318f0;
 }
 
-.input {
+.case {
+  min-width: 8rem;
+  max-width: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.case button {
+  color: inherit;
+  font: inherit;
+  border: none;
+  user-select: text;
+  outline: 1px solid currentColor;
+  padding: 2px;
+  background-color: transparent;
+}
+
+code {
+  overflow-wrap: anywhere;
+}
+
+input {
   background-color: transparent;
   border: 1px solid #ccc;
   color: white;
@@ -33,5 +53,5 @@
   font-size: 1.4rem;
   font-family: "Fira Code", monospace;
   text-align: center;
-  width: 80vw;
+  width: 80%;
 }
