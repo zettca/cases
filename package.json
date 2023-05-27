@@ -1,5 +1,5 @@
 {
-  "name": "casing",
+  "name": "cases",
   "private": true,
   "description": "",
   "scripts": {
@@ -9,9 +9,10 @@
     "serve": "vite preview"
   },
   "author": "zettca",
-  "repository": "github:zettca/casing",
+  "repository": "github:zettca/cases",
   "license": "MIT",
   "dependencies": {
+    "change-case": "^4.1.2",
     "solid-js": "^1.6.10"
   },
   "devDependencies": {
