@@ -6,7 +6,11 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "check": "pnpm run \"/^check:.*/\"",
+    "check:types": "tsc",
+    "check:lint": "eslint --ext .ts,.tsx src",
+    "check:format": "prettier --check src"
   },
   "author": "zettca",
   "repository": "github:zettca/cases",
@@ -16,6 +20,11 @@
     "solid-js": "^1.6.10"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-plugin-solid": "^0.12.1",
+    "prettier": "^2.8.8",
     "typescript": "^4.9.5",
     "vite": "^4.1.1",
     "vite-plugin-solid": "^2.5.0"
