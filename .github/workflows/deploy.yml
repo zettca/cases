@@ -28,6 +28,8 @@ jobs:
 
       - uses: actions/setup-node@v3
 
+      - uses: pnpm/action-setup@v2
+
       - run: pnpm install
 
       - name: Static checks
