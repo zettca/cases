@@ -23,3 +23,15 @@
 .link {
   color: #b318f0;
 }
+
+.input {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  font-family: "Fira Code", monospace;
+  text-align: center;
+  width: 80vw;
+}

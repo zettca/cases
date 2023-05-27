@@ -43,7 +43,9 @@ const App: Component = () => {
     <div class={styles.App}>
       <header class={styles.header}>
         <input
+          autofocus
           type="text"
+          class={styles.input}
           value={defaultValue}
           onInput={(event) => setValue(event.currentTarget.value)}
         />
