@@ -18,10 +18,6 @@
   gap: 2rem;
 }
 
-.link {
-  color: #b318f0;
-}
-
 .case {
   min-width: 8rem;
   max-width: 12rem;
@@ -46,8 +42,8 @@ code {
 
 input {
   background-color: transparent;
-  border: 1px solid #ccc;
-  color: white;
+  border: 1px solid currentColor;
+  color: currentColor;
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-size: 1.4rem;
