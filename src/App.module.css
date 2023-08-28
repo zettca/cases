@@ -10,8 +10,7 @@
 
 .main {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -24,6 +23,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
+  gap: 0.6rem;
 }
 
 .case button {
@@ -31,7 +31,8 @@
   font: inherit;
   border: none;
   user-select: text;
-  outline: 1px solid currentColor;
+  outline-width: 1px;
+  outline-style: auto;
   padding: 2px;
   background-color: transparent;
 }

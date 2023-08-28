@@ -22,13 +22,8 @@ const Case = (props: { label: string; value: string }) => {
 
   return (
     <div class={styles.case}>
-      <h3>{props.label}</h3>
-      <button
-        onClick={handleCopy}
-        onKeyDown={(event) => {
-          if (event.key === "Enter") handleCopy();
-        }}
-      >
+      <strong>{props.label}</strong>
+      <button onClick={handleCopy}>
         <code>{props.value}</code>
       </button>
     </div>
